@@ -20,10 +20,11 @@ When connecting the autosplitter, you can choose to have the autostart and lives
 
 ## Notes
 
-- This file is designed and only tested for runs that use the Wyatt timeline. The Fergus timeline is untested and might require some changes for the autosplitter to work. For a 100% run, the autosplitter will not work as expected.
+- This file was designed for runs that use the Wyatt timeline, but works on the Fergus timeline too. 
+- For a 100% run, the autosplitter will not work as expected when going back to previously visited sections.
 - If you only want load time removal and no autostart and autosplits, `wolf2_ltronly.lss` can be used instead as a lightweight version.
-- The final split (endtime) happens around 2 seconds after giving the input, so 2 seconds can be subtracted from the final time in LiveSplit.
-- If you want support for any other build of the game added, feel free to create a GitHub issue.
+- The final split (endtime) happens around 2 seconds after giving the input, so a few seconds can be subtracted from the final time in LiveSplit.
+- For now, only two builds of the game are supported. If you want support for any other build added, feel free to create a GitHub issue.
 
 This is an updated version of the load remover by [itsjabo](https://github.com/itsjabo).
 
