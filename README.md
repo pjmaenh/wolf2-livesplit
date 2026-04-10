@@ -8,14 +8,13 @@ Current functionality:
 - Automatic load time removal (when comparing against game time)
 - Automatic start timer when loading in wheelchair level
 - Autosplits between sections, including end section
-
-Functionality to disable certain autosplits will be added in the near future.
+- Individual splits can be turned on or off in the advanced settings
 
 ## Getting started
 
 Download `wolf2.asl` and use it in LiveSplit for autosplitting, using a file with 26 splits.
 
-The `wolf2.lss` LiveSplit file can be used as a starting point for the splits, just configure `wolf2.asl` as autosplitter in the Splits Editor and you are good to go.
+The `wolf2.lss` LiveSplit file can be used as a starting point for the splits, just configure `wolf2.asl` as autosplitter in the Splits Editor and you are good to go. Within the advanced settings, you can turn on or off individual splits.
 
 When connecting the autosplitter, you can choose to have the autostart and livesplit functionality enabled or disabled.
 
