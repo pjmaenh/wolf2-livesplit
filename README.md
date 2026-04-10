@@ -25,6 +25,6 @@ When connecting the autosplitter, you can choose to have the autostart and lives
 - The final split (endtime) happens around 2 seconds after giving the input, so 2 seconds can be subtracted from the final time in LiveSplit.
 - If you want support for any other build of the game added, feel free to create a GitHub issue.
 
-This is an updated version of the autosplitter by [itsjabo](https://github.com/itsjabo).
+This is an updated version of the load remover by [itsjabo](https://github.com/itsjabo).
 
-Special thanks to [83kY](https://www.twitch.tv/83ky) for testing, helping me to figure out how to create the autospliter file, and for providing me with save files for testing and debugging.
+Special thanks to [83kY](https://www.twitch.tv/83ky) for testing, helping me to figure out how to create the autosplitter file, and for providing me with save files for testing and debugging.
