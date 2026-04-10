@@ -1,3 +1,12 @@
+/**
+ * LiveSplit Autosplitter for Wolfenstein II: The New Colossus
+ *
+ * Basic/lightweight version that only does load time removal.
+ * Works on both current patch and the build from 15 November 2017 (currently used in speedruns).
+ *
+ * GitHub: https://github.com/pjmaenh/wolf2-livesplit
+ **/
+
 state("NewColossus_x64vk", "steam - current")
 {
     int isLoading : 0x3CBA560;
