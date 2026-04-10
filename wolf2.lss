@@ -255,7 +255,37 @@
   </Segments>
   <AutoSplitterSettings>
     <Version>1.5</Version>
-    <ScriptPath>C:\Tools\LiveSplit\Components\WolfensteinIITheNewColossus.asl</ScriptPath>
-    <CustomSettings />
+    <ScriptPath>C:\Tools\LiveSplit\Components\wolf2.asl</ScriptPath>
+    <Start>True</Start>
+    <Split>True</Split>
+    <CustomSettings>
+      <Setting id="map_splits" type="bool">True</Setting>
+      <Setting id="c02p0_c02p1" type="bool">True</Setting>
+      <Setting id="c02p1_c02p2" type="bool">True</Setting>
+      <Setting id="c02p2_submarine" type="bool">True</Setting>
+      <Setting id="submarine_c03p1" type="bool">True</Setting>
+      <Setting id="c03p1_c03p2" type="bool">True</Setting>
+      <Setting id="c03p2_c03p3" type="bool">True</Setting>
+      <Setting id="c03p3_submarine" type="bool">True</Setting>
+      <Setting id="submarine_c04p2" type="bool">True</Setting>
+      <Setting id="c04p2_submarine" type="bool">True</Setting>
+      <Setting id="submarine_c05p1" type="bool">True</Setting>
+      <Setting id="c05p1_c05p2" type="bool">True</Setting>
+      <Setting id="c05p2_c06p1" type="bool">True</Setting>
+      <Setting id="c06p1_c06p2" type="bool">True</Setting>
+      <Setting id="c06p2_c06p3" type="bool">True</Setting>
+      <Setting id="c06p3_submarine" type="bool">True</Setting>
+      <Setting id="submarine_c07p2" type="bool">True</Setting>
+      <Setting id="c07p2_submarine" type="bool">True</Setting>
+      <Setting id="submarine_c08p1" type="bool">True</Setting>
+      <Setting id="c08p1_c08p2" type="bool">True</Setting>
+      <Setting id="c08p2_c08p3" type="bool">True</Setting>
+      <Setting id="c08p3_c09p1" type="bool">True</Setting>
+      <Setting id="c09p1_c09p2" type="bool">True</Setting>
+      <Setting id="c09p2_submarine" type="bool">True</Setting>
+      <Setting id="submarine_c11p1" type="bool">True</Setting>
+      <Setting id="c11p1_c12p1" type="bool">True</Setting>
+      <Setting id="c12p1_utro" type="bool">True</Setting>
+    </CustomSettings>
   </AutoSplitterSettings>
 </Run>
