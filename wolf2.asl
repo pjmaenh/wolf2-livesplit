@@ -143,8 +143,10 @@ update
 start
 {
     // Autostart timer when loading in wheelchair level
-    // The timer should pause immediately because of loading
-    return ( (!old.mission.Contains("c02p0")) && (current.mission.Contains("c02p0")) );
+    // The timer should pause because of loading
+    // return ( (!old.mission.Contains("c02p0")) && (current.mission.Contains("c02p0")) );
+    // Better way, also allows for resets on first level
+    return ( current.isLoading > 0 && (current.mission.Contains("c02p0") ));
 }
 
 split 
